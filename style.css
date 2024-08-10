@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'klavika-bold';
+    src: url(fonts/klavika-bold.otf);
+}
+
+@font-face {
+    font-family: 'klavika-normal';
+    src: url(fonts/klavika-medium.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F2F5;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+}
+
+article h1 {
+    font-family: 'klavika-bold';
+    color: #1877F2;
+    font-size: 5em;
+}
+
+article p {
+    font-family: 'klavika-normal';
+    font-size: 2em;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.322);
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+input#login {
+    background-color: #1877F2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form > a {
+    color: #1877F2;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form > a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+input#create {
+    background-color: #42B72A;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+}
